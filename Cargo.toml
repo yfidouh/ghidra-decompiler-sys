@@ -1,0 +1,11 @@
+[package]
+name = "ghidra-decompiler-sys"
+version = "0.6.4"
+edition = "2021"
+license = "Apache-2.0"
+description = "Native build of Ghidra's C++ decompiler engine (libdecomp) from ghidra-native"
+repository = "https://github.com/yfidouh/ghidra-decompiler-sys"
+links = "ghidra_decomp"
+
+[build-dependencies]
+cc = "1"
